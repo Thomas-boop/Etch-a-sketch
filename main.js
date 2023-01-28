@@ -52,7 +52,7 @@ blackColor()
 function rgbColor() { 
     
     const boxs = container.querySelectorAll('.box')
-    btnRgb.textContent = "RGB"
+    btnRgb.textContent = "RainBow"
     btnRgb.addEventListener('click', () => {
         boxs.forEach(box => box.addEventListener('mouseover', ()=> {
            let R = Math.floor(Math.random()* 255)
