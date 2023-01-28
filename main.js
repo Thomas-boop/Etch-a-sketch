@@ -1,28 +1,27 @@
+const container = document.querySelector('.container');
+const blackButton = document.createElement('button');
+const grayButton = document.createElement('button');
+const rgbButton = document.createElement('button');
+const sizeButton = document.createElement('button');  
+const buttonsContainer = document.querySelector('buttons')
 
 
-function gridprinter(gridsize){
-    
-    const container = document.getElementById("container");
-    
-            const gridContainer = document.createElement("div");
-            gridContainer.classList.add("grid-container");
-    
-            for (let i = 0; i < gridsize * gridsize; i++) {
-                const gridSquare = document.createElement("div");
-                gridSquare.classList.add("grid-square");
-                gridContainer.appendChild(gridSquare);
-            }
-    
-            container.appendChild(gridContainer);
-    
+function gridprinter(col,rows){
+
+    for (let i = 0; i < (col * rows); i++) {
+        const div = document.createElement("div");
+        div.style.border = "1px solid  gray"
+        container.style.gridTemplateColumns = `repeat(${col}, ifr)`;
+        container.style.gridTemplateRows = `repeat(${rows}, ifr)`;
+        container.appendChild(div).classList.add('box');
+    }
 }
 
 
-    let changeSizeButton = document.getElementById("body-btn");
-    changeSizeButton.addEventListener("click", function () {
-    
-        let size = prompt("Please enter new grid size e.g(18)");
-    
-        gridprinter(size)
-    
-      })
+gridprinter(16,16);
+
+
+
+
+
+
