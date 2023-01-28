@@ -1,4 +1,4 @@
-.grid-square:hover {
+/* .grid-square:hover {
     background-color: black;
 }
 
@@ -21,16 +21,16 @@ h1 {
 #body-btn {
     background-color: #4CAF50;
     /* Green */
-    border: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 12px;
-    margin-left: 20em;
-    margin-bottom: 8px;
-    padding: 15px 15px;
+/* border: none;
+color: white;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+border-radius: 12px;
+margin-left: 20em;
+margin-bottom: 8px;
+padding: 15px 15px;
 
 }
 
@@ -42,8 +42,35 @@ h1 {
     align-items: center;
     justify-content: center;
 
-}
+} */
 
 html {
     background-color: aquamarine;
+}
+
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+section h1 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    transform: translate(-50%);
+    font-size: 4em;
+}
+
+
+.container {
+
+    width: 600px;
+    height: 600px;
+    display: grid;
+    z-index: 100;
 }
