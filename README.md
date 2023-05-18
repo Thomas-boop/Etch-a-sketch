@@ -1,6 +1,5 @@
 # Etch-a-sketch
 
-
 A browser version of something between a sketchpad and an Etch-A-Sketch.
 
 ## Table of Contents
@@ -14,7 +13,7 @@ A browser version of something between a sketchpad and an Etch-A-Sketch.
 
 ## LIVE PREVIEW
 
-`https://thomas-boop.github.io/Etch-a-sketch/`
+(https://thomas-boop.github.io/Etch-a-sketch/)
 
 ## Installation
 
@@ -54,4 +53,3 @@ I welcome contributions from the community! If you'd like to contribute to this 
 ## License
 
 # There are no lincences so feel free to Fork and use as you please.
-
