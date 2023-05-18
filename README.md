@@ -1,9 +1,5 @@
 # Etch-a-sketch
 
-A browser version of something between a sketchpad and an Etch-A-Sketch.
-
-# Etch-a-sketch
-
 <<<<<<< HEAD
 
 A browser version of something between a sketchpad and an Etch-A-Sketch.
