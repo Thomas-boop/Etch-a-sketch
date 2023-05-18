@@ -2,6 +2,12 @@
 
 A browser version of something between a sketchpad and an Etch-A-Sketch.
 
+# Etch-a-sketch
+
+<<<<<<< HEAD
+
+A browser version of something between a sketchpad and an Etch-A-Sketch.
+
 ## Table of Contents
 
 - Live preview (Demo link)
@@ -52,4 +58,8 @@ I welcome contributions from the community! If you'd like to contribute to this 
 
 ## License
 
-There are no lincences so feel free to Fork and use as you please.
+# There are no lincences so feel free to Fork and use as you please.
+
+A browser version of something between a sketchpad and an Etch-A-Sketch.
+
+> > > > > > > 5b3d8de950d555549ba65d40ecf4494476c3f6bd
